@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/addNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Adicionar Tarefa"
+        android:textColor="#2196F3"
+        android:textSize="24sp"/>
+    
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addNote"
+        android:layout_marginEnd="6dp" />
+
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Título"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/addNote"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_border"
+        android:textColor="#2196F3"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Descrição"
+        android:gravity="top"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_border"
+        tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
