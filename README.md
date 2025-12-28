@@ -48,10 +48,13 @@ Este projeto é o início de um caminho cheio de novas oportunidades.
 Este projeto é compartilhado sob a licença MIT.  
 Sinta-se à vontade para usar, modificar e aprender com ele.
 
+
 # 📝 Notes App
 
 A simple notes application developed in **Kotlin**.  
-This project represents my **first contact with technology**, carried out as part of a course at the educational academy **Toti**, an institution that supports migrants in their journey into the world of technology.
+This project represents my **first contact with technology**, 
+carried out as part of a course at the educational academy **Toti**,
+an institution that supports migrants in their journey into the world of technology.
 
 ---
 
